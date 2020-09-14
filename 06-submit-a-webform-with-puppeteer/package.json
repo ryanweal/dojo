@@ -1,0 +1,15 @@
+{
+  "name": "06-submit-a-webform-with-puppeteer",
+  "version": "1.0.0",
+  "description": "In this dojo we will build a simple webform submitter using the puppeteer tool for automation. The program will accept variables for knowing what form to target and will presume some \"known\" fields will exist on that form.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Weal",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^5.3.0",
+    "yargs": "^16.0.3"
+  }
+}
