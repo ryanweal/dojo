@@ -1,0 +1,2 @@
+* * * * * root echo "Hello world `date`" >> /var/log/cron.log 2>&1
+58 * * * * root curl http://example.com >> /var/log/cron.log 2>&1

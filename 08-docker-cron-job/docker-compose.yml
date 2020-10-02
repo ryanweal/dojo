@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  cron:
+    hostname: cron
+    build: ./
+    image: rcw/cron
